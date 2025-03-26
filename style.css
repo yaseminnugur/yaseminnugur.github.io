@@ -1,13 +1,52 @@
 body {
-  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
   text-align: center;
-  padding: 50px;
+  background: url('https://www.transparenttextures.com/patterns/cream-dust.png');
   background-color: #fefae0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: #fff8dc;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  max-width: 500px;
+  width: 90%;
+}
+
+h1 {
+  font-size: 32px;
+  color: #2e2e2e;
+  margin-bottom: 20px;
+}
+
+#advice {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 30px;
+  min-height: 60px;
 }
 
 button {
-  padding: 10px 20px;
-  font-size: 16px;
-  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffcc70;
+  color: #222;
   cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+button:hover {
+  background-color: #ffb347;
+  transform: scale(1.05);
 }
