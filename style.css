@@ -4,7 +4,7 @@ body {
   font-family: 'Segoe UI', sans-serif;
   text-align: center;
   background: url('https://www.transparenttextures.com/patterns/cream-dust.png');
-  background-color: #B0C4DE;
+  background-color: #B0C4DE	;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -38,7 +38,7 @@ button {
   font-size: 18px;
   border: none;
   border-radius: 10px;
-  background-color: #FFE4B5;
+  background-color: #F08080;
   color: #222;
   cursor: pointer;
   transition: 0.3s ease;
